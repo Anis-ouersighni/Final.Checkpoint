@@ -1,0 +1,112 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+body{
+
+    background:linear-gradient(-80deg ,rgb(124, 18, 110),#be267a,rgb(155, 88, 147)  ,  rgb(112, 165, 209)  );
+    
+    background-size: 400% 400%;
+}
+.Page-Head{
+    padding: 50px  ;
+}
+
+.Title{
+
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: lighter;
+    border-bottom : dashed ;
+    text-shadow: 2px 2px 2px rgb(102, 177, 238);
+}
+
+
+
+.Container{
+    margin-top: 6em;
+    display: flex;
+    padding-left: 35px;
+
+}
+.FormInput{
+    display: block;
+}
+.AdressEmail {
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 0.8m;
+    padding-bottom: 1.3em;
+    margin-left: 5em;
+}
+.Feed{
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 0.8m;
+    padding-top: 2em;
+    margin-left: 5em;
+}
+.ContactEmail1{
+    width: 450px;
+    margin-left: 7.2em;
+    height: 4.3vh;
+}
+.ContactText1 {
+    width: 450px;
+    height: 20vh;
+    margin-left :7.2em ;
+    margin-top: 2em;
+}
+
+.image{
+    position: relative;
+    margin-top: 3.5em;
+    margin-left: 18em;
+    margin-bottom: 1.5em;
+    border-radius: 15%;
+    box-shadow: darkblue;
+    width: 350px;
+}
+.button{
+    display: block;
+    margin-top: 2em;
+    margin-left: 7.2em;
+    width: 150px;
+    height: 5vh;
+}
+
+a {
+    position: absolute;
+    color: rgb(82, 90, 100);
+    font-weight: 550;
+    text-decoration: none;
+    margin-top: 50px;
+    border: 1px solid ;
+    border-color: rgb(0, 0, 0);    
+    background-color: rgb(202, 195, 187);
+    padding: 8px 40px ;
+    margin: 1em 55em;
+    margin-bottom: 2em;
+    transition: color 0.4s linear;
+    text-transform: uppercase;
+    font-family: "montserrat" , sans-serif ;
+}
+a::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: #fff;
+    background: #000;
+    z-index: -1;
+    transform: scaleX(1);
+    transform-origin: left center;
+    transition: transform 0.5s cubic-bezier(0.5,1.6, 0.4, 0.7);
+  }
+  
+  a:hover {
+      color: rgb(0, 0, 0);
+      
+    }

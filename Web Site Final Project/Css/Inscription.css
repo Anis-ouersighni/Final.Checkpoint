@@ -1,0 +1,59 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+
+}
+
+.Social{
+    align-items: center;
+    padding-left: 28em;
+    padding-top: 5.8em;
+}
+.Social a{
+    font-style: italic;
+    text-decoration: none;
+    font-weight: 600    ;
+    padding-left: 170px;
+    padding-top: 30px;
+}
+section .Logo{
+    align-items: center;
+    padding-left: 32em;
+    
+}
+.Back a {
+    position: absolute;
+    color: rgb(52, 108, 180);
+    font-weight: 550;
+    text-decoration: none;
+    border: 1px solid ;
+    border-color: rgb(0, 0, 0);    
+    background-color: rgb(202, 195, 187);
+    padding: 8px 40px ;
+    margin: 0em 36em;
+    bottom: 3px;
+    margin-bottom: 2em;
+    transition: color 0.4s linear;
+    text-transform: uppercase;
+    font-family: "montserrat" , sans-serif ;
+}
+.Back a::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: #fff;
+    background: #000;
+    z-index: -1;
+    transform: scaleX(1);
+    transform-origin: left center;
+    transition: transform 0.5s cubic-bezier(0.5,1.6, 0.4, 0.7);
+  }
+  
+  .Back a:hover {
+      color: rgb(0, 0, 0);
+      
+    }

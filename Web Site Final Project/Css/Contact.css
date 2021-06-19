@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+* {
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    
+} 
+body{
+    background:linear-gradient(-80deg ,rgb(29, 90, 105),#5a668b );
+
+}
+/*  
+#myVideo {
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  */
+.image{
+    position:absolute;
+    width:300px      ;
+    height:120px;  
+    margin-top: 7em;
+    margin-left: 30em;
+    margin-bottom: 4em;
+}
+label{
+    border-style: solid;
+    box-sizing:inherit;
+    font-style:bold;
+}
+.Title{
+    position:absolute;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: lighter;
+    border-bottom : dashed ;
+    color: rgb(88, 69, 59);
+    text-shadow: 2px 2px 2px rgb(44, 13, 13);
+    padding-left: 5px;
+    margin-left: 25em;
+    margin-right: 27em;
+}
+.Content{
+    position: fixed;
+    display: flex;
+    padding: 320px 390px;
+}
+.Phone{
+    padding-left: 7em;
+}
+label{
+    color: darkgoldenrod;
+}
+a {
+    position: absolute;
+    color: rgb(26, 13, 21);
+    font-weight: 550;
+    text-decoration: none;
+    margin-top: 50px;
+    border: 1px solid ;
+    border-color: rgb(0, 0, 0);    
+    background-color: rgb(202, 202, 187);
+    padding: 10px 25px ;
+    margin: 33em 36em;
+    transition: color 0.4s linear;
+    text-transform: uppercase;
+    font-family: "montserrat" , sans-serif ;
+}
